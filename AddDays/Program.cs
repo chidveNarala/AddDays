@@ -8,7 +8,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        var serviceProvider = new ServiceCollection()
+        ServiceProvider serviceProvider = new ServiceCollection()
                 .AddSingleton<IDateService, DateService>().BuildServiceProvider();
 
         var dateService = serviceProvider.GetService<IDateService>();
