@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace DateAdd;
+namespace AddDays;
 
 [ExcludeFromCodeCoverage]
 internal class Program
